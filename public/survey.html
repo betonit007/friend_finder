@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Find A Friend</title>
+    <link rel="stylesheet" type="text/css" href="public/css/reset.css">
+    <link rel="stylesheet" type="text/css" href="public/css/css.css">
+    <link href="https://fonts.googleapis.com/css?family=Indie+Flower" rel="stylesheet">
+    <!--  link to the jQuery Library -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src='https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js'></script>
+</head>
+
+<body>
+    <div class="wrap" style="height:95%">
+        <div class="top">
+            <h4>
+                Survey Questions
+            </h4>
+            <hr>
+            <p>
+                Name:
+            </p>
+            <input type="text" id="name" class="form-control" required="">
+            <p>
+                Link to photo:
+            </p>
+            <input type="text" id="photoLink" class="form-control" required="">
+
+        </div>
+
+        <div id="survey">
+           
+            <div class="qContainer">
+                <p>1.) Your mind is always buzzing with unexplored ideas and plans.</p>
+            </div>
+                <form>
+                    <select id="q1" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>2.) Generally speaking, you rely more on your experience than your imagination.</p>
+            </div>
+                <form>
+                    <select id="q2" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>3.) You find it easy to stay relaxed and focused even when there is some pressure.</p>
+            </div>
+
+                <form>
+                    <select id="q3" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            <div class="qContainer">
+                <p>4.) You rarely do something just out of sheer curiosity.</p>
+            </div>
+                <form>
+                    <select id="q4" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+           
+            <div class="qContainer">
+                <p>5.) People can rarely upset you.</p>
+            </div>
+                <form>
+                    <select id="q5" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>6.) It is often difficult for you to relate to other people’s feelings.</p>
+            </div>
+                <form>
+                    <select id="q6" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>7.) In a discussion, truth should be more important than people’s sensitivities.</p>
+            </div>
+                <form>
+                    <select id="q7" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+           
+            
+            <div class="qContainer">
+                <p>8.) You rarely get carried away by fantasies and ideas.</p>
+            </div>
+                <form>
+                    <select id="q8" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>9.) You think that everyone’s views should be respected regardless of whether they are supported by facts.
+                    </p>
+                </div>
+                <form>
+                    <select id="q9" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+            
+            
+            <div class="qContainer">
+                <p>10.) You feel more energetic after spending time with a group of people.</p>
+            </div>
+                
+                <form>
+                    <select id="q10" style="font-family: 'Indie Flower', cursive;" name="rating">
+                        <option value="select">Select</option>
+                        <option value=1>1 (Strongly Disagree)</option>
+                        <option value=2>2</option>
+                        <option value=3>3</option>
+                        <option value=4>4</option>
+                        <option value=5>5 (Strongly Agree)</option>
+                    </select>
+        </div>
+        <br>
+        <div id="subButton">
+        <button type="submit" class="btn btn-primary btn-md" id="add-btn">Submit</button>
+        </div>
+        <div class="bottom">
+
+            <div id="links">
+                <a id="link1" href="/api/friends">API Friends List</a>
+                <a href="/">Home</a>
+                <a id="link2" href="">Github Repo</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- The Modal -->
+<div id="myModal" class="modal">
+        <!-- Modal content -->
+        <div class="modal-content">      
+              <span class="close">x</span>
+              <h4>Your match is: </h4>
+              <span><h4 id="nameResult"></h4></span>
+              </h4><img id="photoResult" src="">
+      </div>
+</div>
+
+</body>
+
+<script type="text/javascript">
+
+//////////////////validate all fields are completed, then post to api friends and clear fields///////////
+
+    $("#add-btn").on("click", function (event) {
+        event.preventDefault();
+        var complete = true;
+        for (var i = '1'; i < 10; i++) {
+            if ($("#q"+ i).val() === 'select') {
+                console.log('select found' + complete);
+              complete = false;
+            }
+        }
+        if ($("#name").val() === "" || $("#photoLink").val() === "" || !complete) {
+            alert("Please fill in all fields.");
+        }
+        
+        else {
+            var newRes = {
+                name: $("#name").val().trim(),
+                photo: $("#photoLink").val().trim(),
+                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val()]
+            };
+
+           $("#name").val("");
+           $("#photoLink").val("");
+            for (var i = '1'; i < 10; i++) {
+              $("#q"+ i).val('');
+            }
+    
+            $.post("/api/friends", newRes)
+            .then(function(data) {
+              console.log(data.name);
+              $("#nameResult").text(data.name);
+              $("#photoResult").attr("src", data.photo);
+              modal.style.display = "block";
+
+
+            });
+
+        }
+    });
+     
+// Get the modal
+var modal = document.getElementById('myModal');
+var span = document.getElementsByClassName("close")[0];
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+    modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+    if (event.target == modal) {
+        modal.style.display = "none";
+    }
+}
+
+</script>
+
+
+</html>

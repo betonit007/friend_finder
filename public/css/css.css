@@ -1,0 +1,160 @@
+body {
+    background-color: #ed008c;
+    height: 100%;
+    font-family: 'Indie Flower', cursive;
+    
+  }
+  
+  .wrap {
+    height: 100vh;
+    width: 75%;
+    background-color: white;
+    margin: 0 auto;
+    border: 3px solid black;
+
+   
+  }
+  
+  .top {
+    width: 100%;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    
+    
+  }
+  
+  .mid {
+    width: 100%;
+    height:70%;
+    flex:1;
+    display: flex;
+    background-image: url("/public/images/friend.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    align-items: center;
+    justify-content: center;
+  }
+ 
+  .mid > a > img {
+     height: 80px;
+     width: 80px;
+  }
+
+  .bottom {
+
+    width: 100%;
+    flex-direction: column;
+    text-align: center;
+
+  }
+ 
+  h1 {
+    font-size: 85px;
+    padding-top: 10px;
+  }
+  h3 {
+      font-size: 50px;
+  }
+  h4
+  {
+      font-size: 40px;
+  }
+  
+#links {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    padding-top:10px;
+
+}
+
+#survey {
+
+    width: 100%;
+    padding: 10px;
+    flex-direction: column;
+    text-align: left;
+    font-size: 120%;
+}
+
+input {
+  margin: 10px;
+}
+
+select {
+  height: 80%;
+  margin: 10px;
+ 
+}
+
+.qContainer {
+ display:flex;
+ padding: 2px;
+ margin: 1px;
+ align-items: center;
+}
+
+form {
+ padding: 0 2px;
+}
+
+#subButton {
+  display:flex;
+  justify-content: center;
+}
+
+#add-btn{
+  background-color: #ed008c;
+  margin-left:10px;
+  font-family: 'Indie Flower', cursive;
+  font-size: 150%;
+  cursor: pointer;
+}
+a {
+  color: black;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  padding-top: 100px; /* Location of the box */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0,0,0); /* Fallback color */
+  background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+
+/* Modal Content */
+.modal-content {
+  background-color: #fefefe;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #888;
+  width: 30%;
+  max-height: calc(100vh - 210px);
+  text-align: center;
+  
+}
+
+/* The Close Button */
+.close {
+  color: #aaaaaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: #000;
+  text-decoration: none;
+  cursor: pointer;
+}
