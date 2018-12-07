@@ -1,4 +1,4 @@
-var path = require('path');
+
 var friends = require('../app/data/friends.js');
 var closest = 100;
 var score = 0;
@@ -13,8 +13,6 @@ module.exports = function (app) {
 
     app.post("/api/friends", function (req, res) {
         var newRes = req.body;
-        console.log(newRes);
-        console.log(friends);
 
         for (i in friends) {
             for (var x = 0; x < 10; x++) {
@@ -30,7 +28,6 @@ module.exports = function (app) {
         }
         friends.push(newRes);
         closest = 100;
-        console.log("Your match is: " + match.name);
         res.json(match);
         
 

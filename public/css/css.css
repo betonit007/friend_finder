@@ -141,6 +141,7 @@ a {
   width: 30%;
   max-height: calc(100vh - 210px);
   text-align: center;
+  overflow: auto; 
   
 }
 
